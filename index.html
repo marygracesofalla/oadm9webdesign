@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Log in</title>
+	<link href="kofi_symbol.png" type="image/png" rel="icon"/>
+	<link href="Ko-fi Log In.Css" text="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="navbar">
+	<a href="home.html"><img src="kofi_symbol.png" style="float: left; width: 35px; length: 35px; margin-left: 50px; margin-top: 10px;"></a>
+</div>
+	<br>
+<h3 style="margin-top: 110px">Log in</h3>
+	<div style="background-color: white; width: 550px; length: 600px"class="container">
+<form>
+<input type="text" placeholder="Email" id="username" />
+<input type="password" placeholder="Password" id="Password" />
+
+<button type="button" class="login-btn" onclick="login()">Log in</button>
+
+</form>
+<a href="" style="padding-top: 10px; float: right; padding-right: 30px;" >Forgot password?</a>
+	<p style="padding-top: 20px; padding-left: 10px; color: #D3D3D3">or log in with</p>
+
+<a href="https://google.com" style="text-decoration: none;"><button style=""class="button-link"><img src="google.png" style="width: 20px; length: 20px">Google</button></a><br>
+<a href="https://Facebook.com" style="text-decoration: none;"><button class="button-link" ><img src="facebook.png" style="width: 25px; length: 25px">Facebook</button></a><br>
+<a href="https://twitter.com" style="text-decoration: none;"><button class="button-link"><img src="Twitter-X-Logo.png" style="width: 20px; length: 20px">Twitter</button></a><br>
+<a href="https://twitch.tv" style="text-decoration: none;"><button class="button-link"><img src="twitch.png" style="width: 25px; length: 25px">Twitch</button></a><br>
+<p>New to Ko-fi? <a href="Ko-fi Sign Up.html">Sign up here</a></p>
+</div>
+
+
+<p style="float: right; margin-top: 50px;"><a>Cookie</a> <a>Settings</a> <a>Terms</a> <a>Privacy</a></p>
+
+<script>
+function login() {
+
+	let username = document.getElementById("username").value;
+	let password = document.getElementById("Password").value;
+
+	if(username === "marygracesofalla@email.com" && password === "10262004") {
+			window.location.href = "Ofalla Profile.html";
+		}
+
+	else if(username === "resamaecabjog@email.com" && password === "10242001") {
+			window.location.href = "Cabjog Profile.html";
+		}
+
+	else if(username === "honeymaeedca@email.com" && password === "11012005") {
+			window.location.href = "Edca Profile.html";
+		}
+
+	else{
+			alert("Invalid email address or password.");
+		}
+
+}
+</script>
+</body>
+</html>
+

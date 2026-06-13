@@ -1,0 +1,71 @@
+body{
+	background-color: #F8F2E8;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+input[type="text"] {
+	width: 85%;
+	padding: 15px;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	background-color: #EDEBE8;
+}
+
+input[type="password"] {
+	width: 85%;
+	padding: 15px;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	background-color: #EDEBE8;
+}
+
+.login-btn {;
+	width: 90%;
+	background-color: black; 
+	color: white; 
+	padding: 12px;
+	border-radius: 20px;
+	margin-top: 10px;
+	cursor:pointer;
+	font-size: 15px;
+}
+
+.container{
+	border-radius: 10px;
+	margin-left: 350px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a:link{
+	color: black;
+}
+a:visited{	
+	color: black;
+}
+
+.button-link{
+	width: 85%;
+	padding: 10px;
+	border-color: #EDEBE8;
+	text-decoration: none;
+	border-radius: 20px;
+	padding-right: 30px;
+	margin: 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;          
+  width: 100%;    
+  z-index: 1000;
+  background-color: #F8F2E8;
+  padding-bottom: 20px;
+}
